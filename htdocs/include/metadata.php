@@ -66,12 +66,13 @@ class metadata
 		 */
 		'photo' => array(
 			'title' => 'Фотографии',
+			'class' => 'photo',
 			'fields' => array(
 				'photo_id' => array( 'title' => 'Идентификатор', 'type' => 'pk' ),
 				'photo_album' => array( 'title' => 'Фотоальбом', 'type' => 'table', 'table' => 'photo_album', 'errors' => 'require' ),
 				'photo_title' => array( 'title' => 'Название', 'type' => 'string', 'show' => 1, 'main' => 1, 'errors' => 'require' ),
 				'photo_image' => array( 'title' => 'Фотография', 'type' => 'file', 'upload_dir' => '/upload/photo/', 'errors' => 'require' ),
-				'photo_preview' => array( 'title' => 'Превью', 'type' => 'file', 'upload_dir' => '/upload/photo/', 'errors' => 'require' ),
+				'photo_preview' => array( 'title' => 'Превью', 'type' => 'file', 'upload_dir' => '/upload/photo/' ),
 				'photo_order' => array( 'title' => 'Порядок', 'type' => 'order', 'group' => array( 'photo_album' ) ),
 			),
 		),

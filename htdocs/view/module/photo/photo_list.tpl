@@ -9,10 +9,10 @@
 {if $album_item.photo_list}
 	<h3>{$album_item.album_title|escape}</h3>
 {if $album_item.album_comment}
-	<p{if !$smarty.foreach.album_list.first} style="display: none"{/if}>{$album_item.album_comment|escape}</p>
+	<p>{$album_item.album_comment|escape}</p>
 {/if}
 {foreach item=photo_item from=$album_item.photo_list}
-	<div class="item"{if !$smarty.foreach.album_list.first} style="display: none"{/if}>
+	<div class="item">
 		<a href="{$photo_item.photo_image}" rel="sexylightbox[{$photo_item.photo_album}]"><img src="{$photo_item.photo_preview}" /></a>
 	</div>
 {/foreach}
