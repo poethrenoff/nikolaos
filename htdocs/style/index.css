@@ -1,0 +1,196 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+p, a, div, td, input, textarea, select {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #394E6D;
+    text-decoration: none;
+}
+
+h1 {
+    color: #24246E;
+    font-size: 17px;
+    text-align: center;
+}
+h2 {
+    color: #24246E;
+    font-size: 16px;
+}
+h3 {
+    color: #24246E;
+    font-size: 14px;
+}
+
+div.main {
+    width: 900px;
+    margin: auto;
+    background-image: url( '/image/back.jpg' );
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+div.outer {
+    background-image: url( '/image/bottom.jpg' );
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+div.inner {
+    padding-top: 260px;
+    padding-bottom: 110px;
+
+    background-image: url( '/image/top.jpg' );
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+div.back {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 335px;
+}
+    div.back img {
+        width: 340px;
+        height: 140px;
+        border: none;
+    }
+
+div.head {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 375px;
+    text-align: right;
+    width: 300px;
+    color: #24246E;
+}
+
+    div.content table.content {
+        width: 100%;
+    }
+        div.content table.content td {
+            text-align: left;
+            vertical-align: top;
+        }
+        div.content table.content td.menu {
+            width: 180px;
+            padding: 0px 0px 0px 20px;
+        }
+        div.content table.content td.content {
+            padding: 20px 20px 0px 20px;
+        }
+            div.content table.content td.content p {
+                text-indent: 30px;
+            }
+            
+        div.content table.content td.info {
+            width: 175px;
+            padding: 75px 15px 0px 10px;
+        }
+
+div.menu div.level0 {
+    margin-top: 20px;
+}
+
+    div.menu a {
+        color: #F6E02A;
+        font-size: 18px;
+        font-style: italic;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+div.photo {
+    
+}
+
+    div.photo h3 {
+        margin-bottom: 0px;
+    }
+
+    div.photo div.item {
+        float: left;
+        padding: 10px;
+    }
+    
+    div.photo h3 {
+        cursor: pointer;
+    }
+
+form.question_form {
+    
+}
+
+    form.question_form input, textarea {
+        width: 98%;
+        margin: 0px;
+        margin-bottom: 5px;
+        padding: 3px;
+        
+        color: #000000;
+        font-size: 12px;
+    }
+
+    form.question_form input.comment {
+        color: #BEBFA0;
+    }
+
+    form.question_form input.captcha {
+        width: 100px;
+        color: #000000;
+    }
+
+    form.question_form img {
+        border: 1px solid #aaaaaa;
+    }
+
+    form.question_form textarea {
+        height: 100px;
+    }
+
+    form.question_form textarea.comment {
+        color: #BEBFA0;
+    }
+
+    form.question_form input.button {
+        width: 100px;
+        border: 1px solid #aaaaaa;
+    }
+
+    form.question_form div.error {
+        color: red;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    form.question_form div.submit {
+        position: absolute;
+        width: 450px;
+        text-align: right;
+    }
+    form.question_form div.captcha {
+        position: absolute;
+        padding-left: 90px;
+    }
+    form.question_form div.image {
+        height: 25px;
+    }
+
+div.question {
+    
+}
+
+    div.question div.question_content {
+        margin: 10px 0px 10px 0px;
+    }
+
+    div.question div.question_answer {
+        font-style: italic;
+        margin: 10px 0px 15px 20px;
+    }
