@@ -36,7 +36,7 @@ class admin_table_photo extends admin_table
 		$record = $this -> get_record( $primary_field );
 		
 		$photo_image_path = image::process(
-			'resize', $record['photo_image'], $this -> fields['photo_image']['upload_dir'], 475, 340 );
+			'resize', $record['photo_image'], $this -> fields['photo_image']['upload_dir'], 800, 570 );
 		$photo_preview_path = image::process(
 			'crop', $record['photo_image'], $this -> fields['photo_image']['upload_dir'], 210, 150 );
 		
