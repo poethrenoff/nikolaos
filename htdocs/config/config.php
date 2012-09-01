@@ -9,9 +9,9 @@
 	define( 'DB_HOST', 'localhost' );
 	define( 'DB_NAME', 'nikolaos' );
 	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', 'Сайт Шарьинского Благочиния' );
+	define( 'DB_PASSWORD', '' );
 	
-	define( 'SITE_TITLE', 'Заголовок' );
+	define( 'SITE_TITLE', 'Сайт Шарьинского Благочиния' );
 	define( 'SITE_CACHE', false );
 	
 	define( 'DEBUG_MODE', true );
