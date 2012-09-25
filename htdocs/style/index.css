@@ -3,6 +3,7 @@ body {
     margin: 0px;
     color: #000000;
     background-color: #ffffff;
+    background-image: url( '/image/uzor.jpg' );
 }
 
 p, a, div, td, input, textarea, select {
