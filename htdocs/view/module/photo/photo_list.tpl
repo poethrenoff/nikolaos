@@ -17,6 +17,6 @@
 	</div>
 {/foreach}
 {/if}
-	<br class="clear" />
+	<div class="clear" />
 </div>
 {/foreach}
