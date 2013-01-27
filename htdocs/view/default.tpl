@@ -9,7 +9,7 @@
 		<script type="text/javascript" src="/script/jquery.js"></script>
 		<script type="text/javascript" src="/script/interface.js"></script>
 	</head>
-	<body>
+	<body class="default">
 		<div class="main">
 			<div class="outer">
 				<div class="back">
@@ -29,9 +29,6 @@
 								</td>
 								<td class="content">
 {$content} 
-								</td>
-								<td class="info">
-{$info} 
 								</td>
 							</tr>
 						</table>
