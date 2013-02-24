@@ -34,6 +34,9 @@
 						</table>
 					</div>
 				</div>
+				<div class="design">
+					<a href="https://www.free-lance.ru/users/Mayber/" target="_blank">Дизайн - May Ber</a>
+				</div>
 			</div>
 		</div>
 	</body>
