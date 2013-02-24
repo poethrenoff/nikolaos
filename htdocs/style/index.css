@@ -207,3 +207,10 @@ div.question {
 .clear {
     clear: both;
 }
+
+div.design {
+	margin-left: 1020px;
+	margin-top: -60px;
+	position: absolute;
+	float: left;
+}
