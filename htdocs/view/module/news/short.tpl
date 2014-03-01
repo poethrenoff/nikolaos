@@ -1,6 +1,9 @@
 <h1>Новости</h1>
 {foreach from=$item_list item=item}
-{$item.news_date} - <a href="{$item.news_url}">{$item.news_title|escape}</a>
+<h3>{$item.news_date} - {$item.news_title|escape}</h3>
 {$item.news_announce}
+<a href="{$item.news_url}">Далее</a>
 {/foreach}
-<a href="/news">К списку новостей</a>
+<div style="text-align: right">
+	<a href="/news">К списку новостей</a>
+</div>
