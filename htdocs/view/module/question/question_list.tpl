@@ -4,15 +4,15 @@
 <form action="{$form_url}" method="post" class="question_form">
 	<h3>Написать свое сообщение</h3>
 	<input type="text" name="question_author" value="{$smarty.post.question_author|escape}" class="text" comment="Впишите свое имя" /><br/>
-{if $error.question_author}
+{if isset($error.question_author)}
 	<div class="error">{$error.question_author|escape}</div>
 {/if}
 	<input type="text" name="question_email" value="{$smarty.post.question_email|escape}" class="text" comment="Оставьте свой email" /><br/>
-{if $error.question_email}
+{if isset($error.question_email)}
 	<div class="error">{$error.question_email|escape}</div>
 {/if}
 	<textarea rows="5" cols="50" name="question_content" comment="А здесь напишите собственно, что вы хотели сказать">{$smarty.post.question_content|escape}</textarea><br/>
-{if $error.question_content}
+{if isset($error.question_content)}
 	<div class="error">{$error.question_content|escape}</div>
 {/if}
 	<div class="submit">
@@ -24,7 +24,7 @@
 	<div class="image">
 		<img src="/image/captcha.php" alt="" align="absmiddle" />
 	</div>
-{if $error.captcha_value}
+{if isset($error.captcha_value)}
 	<div class="error">{$error.captcha_value|escape}</div>
 {/if}
 	<input type="hidden" name="action" value="question"/>

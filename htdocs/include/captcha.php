@@ -67,7 +67,7 @@ class captcha
 		
 		header( 'Content-type: image/jpeg' );
 		
-		imagejpeg( $im, '', $quality );
+		imagejpeg( $im, null, $quality );
 		
 		exit;
 	}

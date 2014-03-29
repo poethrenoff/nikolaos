@@ -22,7 +22,7 @@ class metadata
 			'title' => 'Новости',
 			'fields' => array(
 				'news_id' => array( 'title' => 'Идентификатор', 'type' => 'pk' ),
-				'news_title' => array( 'title' => 'Название', 'type' => 'string', 'show' => 1, 'main' => 1, 'errors' => 'require' ),
+				'news_title' => array( 'title' => 'Заголовок', 'type' => 'string', 'show' => 1, 'main' => 1, 'errors' => 'require' ),
 				'news_announce' => array( 'title' => 'Анонс', 'type' => 'text', 'editor' => 1, 'errors' => 'require' ),
 				'news_content' => array( 'title' => 'Текст', 'type' => 'text', 'editor' => 1, 'errors' => 'require' ),
 				'news_date' => array( 'title' => 'Дата публикации', 'type' => 'datetime', 'show' => 1, 'sort' => 'desc', 'errors' => 'require' ),
@@ -103,6 +103,33 @@ class metadata
 				'blacklist_id' => array( 'title' => 'Идентификатор', 'type' => 'pk' ),
 				'blacklist_ip' => array( 'title' => 'IP-адрес', 'type' => 'string', 'main' => 1, 'errors' => 'require' ),
 			),
+		),
+		
+		/*
+		 *	Таблица "Записки паломника"
+		 */
+		'letters' => array(
+			'title' => 'Записки паломника',
+			'fields' => array(
+				'letters_id' => array( 'title' => 'Идентификатор', 'type' => 'pk' ),
+				'letters_title' => array( 'title' => 'Заголовок', 'type' => 'string', 'show' => 1, 'main' => 1, 'errors' => 'require' ),
+				'letters_announce' => array( 'title' => 'Анонс', 'type' => 'text', 'editor' => 1, 'errors' => 'require' ),
+				'letters_content' => array( 'title' => 'Текст', 'type' => 'text', 'editor' => 1, 'errors' => 'require' ),
+				'letters_date' => array( 'title' => 'Дата публикации', 'type' => 'datetime', 'show' => 1, 'sort' => 'desc', 'errors' => 'require' ),
+			)
+		),
+		
+		/*
+		 *	Таблица "Объявления"
+		 */
+		'advert' => array(
+			'title' => 'Объявления',
+			'fields' => array(
+				'advert_id' => array( 'title' => 'Идентификатор', 'type' => 'pk' ),
+				'advert_title' => array( 'title' => 'Заголовок', 'type' => 'string', 'show' => 1, 'main' => 1, 'errors' => 'require' ),
+				'advert_content' => array( 'title' => 'Текст', 'type' => 'text', 'editor' => 1, 'errors' => 'require' ),
+				'advert_date' => array( 'title' => 'Дата публикации', 'type' => 'datetime', 'show' => 1, 'sort' => 'desc', 'errors' => 'require' ),
+			)
 		),
 		
 		////////////////////////////////////////////////////////////////////////////////////////

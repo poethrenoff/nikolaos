@@ -8,8 +8,8 @@
 	define( 'DB_TYPE', 'mysql' ); // mysql, pgsql, sqlite
 	define( 'DB_HOST', 'localhost' );
 	define( 'DB_NAME', 'nikolaos' );
-	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', '' );
+	define( 'DB_USER', 'nikolaos' );
+	define( 'DB_PASSWORD', 'nikolaos' );
 	
 	define( 'SITE_TITLE', 'Сайт Шарьинского Благочиния' );
 	define( 'SITE_CACHE', false );
