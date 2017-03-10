@@ -12,13 +12,13 @@
 	<body class="default">
 		<div class="main">
 			<div class="outer">
+				<div class="head">
+{$bless} 
+				</div>
 				<div class="back">
 					<a href="/">
 						<img src="/image/space.gif" />
 					</a>
-				</div>
-				<div class="head">
-{$bless} 
 				</div>
 				<div class="inner">
 					<div class="content">
