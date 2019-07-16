@@ -6,7 +6,7 @@
 	ini_set( 'date.timezone', 'Europe/Moscow' );
 	
 	define( 'DB_TYPE', 'mysql' ); // mysql, pgsql, sqlite
-	define( 'DB_HOST', 'localhost' );
+	define( 'DB_HOST', 'mysql' );
 	define( 'DB_NAME', 'nikolaos' );
 	define( 'DB_USER', 'nikolaos' );
 	define( 'DB_PASSWORD', 'nikolaos' );
