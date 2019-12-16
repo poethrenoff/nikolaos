@@ -186,10 +186,9 @@ form.question_form {
     }
     form.question_form div.captcha {
         position: absolute;
-        padding-left: 90px;
     }
     form.question_form div.image {
-        height: 25px;
+        height: 75px;
     }
 
 div.question {

@@ -15,14 +15,15 @@
 {if isset($error.question_content)}
 	<div class="error">{$error.question_content|escape}</div>
 {/if}
+	<div class="captcha">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<div class="g-recaptcha" data-sitekey="{$recaptcha_public}"></div>
+	</div>
 	<div class="submit">
 		<input type="submit" value="Отправить" class="button" />
 	</div>
-	<div class="captcha">
-		<input type="text" name="captcha_value" class="captcha" value="" />
-	</div>
 	<div class="image">
-		<img src="/image/captcha.php" alt="" align="absmiddle" />
+		&nbsp;
 	</div>
 {if isset($error.captcha_value)}
 	<div class="error">{$error.captcha_value|escape}</div>
