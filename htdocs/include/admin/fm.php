@@ -172,7 +172,7 @@ class admin_fm extends admin
 	
 	private function sort_file_list( $a, $b )
 	{
-		if ( $this -> sort_field == 'size' )
+		if ( $this -> sort_field == 'id' or $this -> sort_field == 'size' )
 			$result = strnatcmp( $a[ $this -> sort_field ], $b[ $this -> sort_field ] );
 		else
 			$result = strcmp( $a[ $this -> sort_field ], $b[ $this -> sort_field ] );
